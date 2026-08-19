@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables (contains secrets)
+.env
+!.env.example
+
+# Logs
+logs/
+*.log
+log/
+
+# Docker volumes (runtime data - NOT config files)
+docker/postgres/
+docker/qdrant/
+docker/redis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# OS
+Thumbs.db
